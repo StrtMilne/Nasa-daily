@@ -1,0 +1,11 @@
+.overall-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.daily-container {
+  width: 80vw;
+  overflow: auto;
+}
+/*# sourceMappingURL=MainPage.css.map */

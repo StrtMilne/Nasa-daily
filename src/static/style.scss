@@ -1,0 +1,13 @@
+@import "./variables";
+@import "./mainPage";
+
+@mixin flexCenter($direction) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+}
+
+p {
+    @include flexCenter(row);
+}

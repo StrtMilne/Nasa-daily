@@ -1,0 +1,87 @@
+.overall-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.daily-container {
+  width: 75vw;
+  height: 100%;
+  overflow: auto;
+}
+
+.side-bar {
+  height: 100vh;
+  width: 25vw;
+  margin: 0;
+  position: fixed;
+  right: 0;
+  background-color: #150047;
+  color: #b4ac96;
+}
+
+.info-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: 75vw;
+}
+
+button {
+  height: auto;
+  margin: 0;
+  padding: 20px;
+  border: 0;
+  background-color: #150047;
+  color: #b4ac96;
+}
+
+.unclicked {
+  color: #b4ac96;
+  background-color: rgba(0, 0, 0, 0.507);
+  width: calc(75vw);
+  padding: 20px 40px;
+  margin: 0;
+  width: calc(auto - 40px);
+}
+
+.clicked {
+  visibility: collapse;
+  width: calc(75vw);
+  color: #b4ac96;
+  background-color: rgba(0, 0, 0, 0.507);
+  padding: 20px 40px;
+  margin: 0;
+  width: calc(auto - 40px);
+}
+
+h2 {
+  color: #b4ac96;
+  text-align: center;
+}
+
+p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/*# sourceMappingURL=style.css.map */

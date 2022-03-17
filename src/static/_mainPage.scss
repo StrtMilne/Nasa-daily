@@ -1,0 +1,66 @@
+$primaryColor : rgb(21, 0, 71);
+$secondaryColor : rgb(180, 172, 150);
+
+.overall-container {
+    display: flex;
+}
+
+.daily-container {
+    width: 75vw;
+    height: 100%;
+    overflow: auto;
+}
+
+.side-bar {
+    height: 100vh;
+    width: 25vw;
+    margin: 0;
+    position: fixed;
+    right: 0;
+    background-color: $primaryColor;
+    color: $secondaryColor;
+}
+
+.info-bar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 75vw;
+}
+
+button{
+    height:auto;
+    margin: 0;
+    padding: 20px;
+    border: 0;
+    background-color: $primaryColor;
+    color: $secondaryColor;
+}
+
+.unclicked {
+    color: $secondaryColor;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: calc(75vw);
+    padding: 20px 40px;
+    margin: 0;
+    width: calc(auto - 40px);
+}
+
+.clicked {
+    visibility: collapse;
+    width: calc(75vw);
+    color: $secondaryColor;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 20px 40px;
+    margin: 0;
+    width: calc(auto - 40px);
+}
+
+h2 {
+    color: $secondaryColor;
+    text-align: center;
+}
